@@ -1,5 +1,0 @@
-﻿User-agent: *
-Disallow:
-
-Sitemap: https://afindustrial.dpdns.org/sitemap.xml
-
