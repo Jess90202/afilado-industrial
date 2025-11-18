@@ -1,0 +1,1218 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>AFINDUSTRIAL | Afilado industrial de cuchillas, sierras y herramientas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO general -->
+  <meta name="description" content="Servicio profesional de afilado industrial de cuchillas, sierras, herramientas de corte, rodillos formadores y mantenimiento de maquinaria. Calidad, precisión y tiempos rápidos para la industria.">
+  <meta name="keywords" content="afilado industrial, afilado de cuchillas, afilado de sierras, afilado de herramientas, mantenimiento de maquinaria, rodillos formadores, afilado CDMX, afilado industrial México">
+  <meta name="author" content="AFINDUSTRIAL">
+
+  <!-- Open Graph (Facebook, LinkedIn) -->
+  <meta property="og:title" content="AFINDUSTRIAL | Afilado industrial profesional">
+  <meta property="og:description" content="Afilado de cuchillas, sierras y herramientas industriales con alta precisión. Atención a empresas y talleres industriales.">
+  <meta property="og:url" content="https://afindustrial.dpdns.org/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://afindustrial.dpdns.org/img/header-afindustrial.png">
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AFINDUSTRIAL | Afilado industrial profesional">
+  <meta name="twitter:description" content="Servicio profesional de afilado industrial de cuchillas, sierras y más.">
+  <meta name="twitter:image" content="https://afindustrial.dpdns.org/img/header-afindustrial.png">
+
+  <!-- SEO técnico -->
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Language" content="es">
+  <link rel="canonical" href="https://afindustrial.dpdns.org/">
+
+  <!-- Sitemap -->
+  <link rel="sitemap" type="application/xml" href="https://afindustrial.dpdns.org/sitemap.xml" />
+
+  <!-- Iconos (Font Awesome) -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <!-- Fuente Montserrat -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <style>
+    :root {
+      --rojo: #c82127;
+      --rojo-oscuro: #8f1116;
+      --negro: #0b0b0b;
+      --gris-oscuro: #181818;
+      --gris-medio: #2a2a2a;
+      --gris-texto: #d5d5d5;
+      --blanco: #ffffff;
+      --gris-acento: #b5bec3;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top, #1a0000 0, #050505 40%, #000000 100%);
+      color: var(--blanco);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .page {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+    }
+
+    .shell {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 260px minmax(0, 1fr);
+      gap: 1.5rem;
+      align-items: stretch;
+    }
+
+    .sidebar {
+      background: linear-gradient(180deg, #212121, #0a0a0a);
+      border-radius: 1.4rem;
+      border: 1px solid #323232;
+      padding: 1.25rem 1.25rem 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
+    }
+
+    .sidebar-logo {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .sidebar-logo img {
+      height: 54px;
+      width: auto;
+    }
+
+    .sidebar-logo-text {
+      text-transform: uppercase;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      font-size: 0.9rem;
+      line-height: 1.2;
+    }
+
+    .sidebar-logo-text span {
+      display: block;
+      font-weight: 500;
+      color: var(--gris-acento);
+      letter-spacing: 0.16em;
+      font-size: 0.75rem;
+    }
+
+    .sidebar-divider {
+      height: 1px;
+      background: linear-gradient(90deg, transparent, #555, transparent);
+      margin: 0.25rem 0 0.75rem;
+    }
+
+    .menu-title {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: #dedede;
+      margin-bottom: 0.5rem;
+    }
+
+    .menu {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+
+    .menu-item {
+      display: flex;
+      align-items: center;
+      gap: 0.55rem;
+      padding: 0.55rem 0.7rem;
+      border-radius: 0.7rem;
+      font-size: 0.9rem;
+      cursor: pointer;
+      border: 1px solid #2f2f2f;
+      color: #e6e6e6;
+      background: #181818;
+      transition: background 0.15s, border-color 0.15s, transform 0.05s, box-shadow 0.15s;
+    }
+
+    .menu-item i {
+      width: 18px;
+      text-align: center;
+      font-size: 0.95rem;
+      color: var(--gris-acento);
+    }
+
+    .menu-item span {
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-size: 0.75rem;
+    }
+
+    .menu-item:hover {
+      background: #222222;
+      border-color: #3d3d3d;
+    }
+
+    .menu-item.active {
+      background: linear-gradient(90deg, var(--rojo), #ff4048);
+      border-color: #ff656b;
+      color: var(--blanco);
+      transform: translateX(1px);
+      box-shadow: 0 0 14px rgba(200, 33, 39, 0.7);
+    }
+
+    .menu-item.active i {
+      color: var(--blanco);
+    }
+
+    .sidebar-footer {
+      margin-top: auto;
+      font-size: 0.75rem;
+      color: #c3c3c3;
+    }
+
+    .sidebar-footer strong {
+      color: var(--gris-acento);
+    }
+
+    .content-shell {
+      background: rgba(8, 8, 8, 0.96);
+      border-radius: 1.4rem;
+      border: 1px solid #262626;
+      padding: 1.4rem 1.6rem 1.6rem;
+      box-shadow: 0 24px 50px rgba(0, 0, 0, 0.85);
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .hero-header {
+      border-radius: 1rem;
+      overflow: hidden;
+      background: #000;
+      border: 1px solid #333;
+    }
+
+    .hero-header img {
+      width: 100%;
+      height: auto;
+    }
+
+    .content-section {
+      display: none;
+      animation: fadeIn 0.18s ease-out;
+    }
+
+    .content-section.active {
+      display: block;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(4px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .section-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .section-meta {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .section-logo {
+      height: 42px;
+      width: auto;
+    }
+
+    .section-title-wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 0.1rem;
+    }
+
+    .section-kicker {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: var(--gris-acento);
+    }
+
+    .section-heading {
+      font-size: 1.4rem;
+      font-weight: 700;
+    }
+
+    .section-icon-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.3rem 0.6rem;
+      border-radius: 999px;
+      background: #151515;
+      border: 1px solid #333;
+      font-size: 0.8rem;
+      color: #bfbfbf;
+    }
+
+    .section-icon-pill i {
+      color: var(--rojo);
+    }
+
+    .section-body {
+      color: var(--gris-texto);
+      font-size: 0.95rem;
+      line-height: 1.85;
+    }
+
+    .section-body p,
+    .card p,
+    .service-content p {
+      text-align: justify;
+      margin-bottom: 0.8rem;
+    }
+
+    .section-subtitle {
+      font-size: 0.95rem;
+      font-weight: 600;
+      margin-top: 0.9rem;
+      margin-bottom: 0.25rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--gris-acento);
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .section-subtitle-icon {
+      color: var(--rojo);
+      font-size: 0.9rem;
+    }
+
+    .section-list {
+      list-style: none;
+      margin: 0.25rem 0 0.75rem 0;
+      padding: 0;
+    }
+
+    .section-list li {
+      margin-bottom: 0.25rem;
+      position: relative;
+      padding-left: 1.1rem;
+    }
+
+    .section-list li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0.55em;
+      width: 0.45rem;
+      height: 0.45rem;
+      border-radius: 999px;
+      background: var(--rojo);
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+      gap: 2rem;
+      margin-top: 0.75rem;
+    }
+
+    .card {
+      background: #141414;
+      border-radius: 0.9rem;
+      border: 1px solid #282828;
+      padding: 1rem 1.1rem;
+      font-size: 0.9rem;
+      color: var(--gris-texto);
+    }
+
+    .card h3 {
+      font-size: 0.95rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--gris-acento);
+      margin-bottom: 0.5rem;
+    }
+
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-top: 0.4rem;
+    }
+
+    .chip {
+      font-size: 0.8rem;
+      padding: 0.25rem 0.6rem;
+      border-radius: 999px;
+      border: 1px solid #333;
+      background: #101010;
+      color: #cfcfcf;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
+    .chip i {
+      font-size: 0.8rem;
+      color: var(--gris-acento);
+    }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+      margin-top: 0.9rem;
+    }
+
+    .service-card {
+      background: #151515;
+      border-radius: 0.9rem;
+      border: 1px solid #2b2b2b;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .service-image {
+      height: 120px;
+      background: #000;
+      overflow: hidden;
+    }
+
+    .service-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .service-content {
+      padding: 0.75rem 0.9rem 0.9rem;
+      font-size: 0.88rem;
+    }
+
+    .service-tag {
+      font-size: 0.73rem;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: #aaaaaa;
+      margin-bottom: 0.2rem;
+    }
+
+    .service-title {
+      font-size: 0.98rem;
+      color: var(--rojo);
+      margin-bottom: 0.25rem;
+      font-weight: 600;
+    }
+
+    form {
+      display: grid;
+      gap: 0.75rem;
+      margin-top: 0.5rem;
+    }
+
+    label {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #cccccc;
+      display: block;
+      margin-bottom: 0.2rem;
+    }
+
+    input,
+    textarea,
+    select {
+      width: 100%;
+      padding: 0.55rem 0.6rem;
+      border-radius: 0.5rem;
+      border: 1px solid #3a3a3a;
+      background: #0e0e0e;
+      color: #fff;
+      font-size: 0.9rem;
+    }
+
+    input:focus,
+    textarea:focus,
+    select:focus {
+      outline: 1px solid var(--rojo);
+      border-color: var(--rojo);
+    }
+
+    textarea {
+      min-height: 110px;
+      resize: vertical;
+    }
+
+    .form-note {
+      font-size: 0.78rem;
+      color: #9b9b9b;
+      margin-top: 0.2rem;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.55rem 1.15rem;
+      border-radius: 999px;
+      border: 1px solid transparent;
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      cursor: pointer;
+      transition: background 0.15s, border-color 0.15s, transform 0.05s;
+    }
+
+    .btn-primary {
+      background: var(--rojo);
+      border-color: var(--rojo);
+      color: var(--blanco);
+    }
+
+    .btn-primary i {
+      margin-right: 0.4rem;
+    }
+
+    .btn-primary:hover {
+      background: var(--rojo-oscuro);
+      transform: translateY(-1px);
+    }
+
+    .btn-whatsapp {
+      background: #25d366;
+      border-color: #1ba851;
+      color: #001b08;
+      font-size: 0.88rem;
+    }
+
+    .btn-whatsapp i {
+      margin-right: 0.4rem;
+    }
+
+    .btn-whatsapp:hover {
+      background: #1ba851;
+      transform: translateY(-1px);
+    }
+
+    .map-wrapper {
+      border-radius: 0.8rem;
+      overflow: hidden;
+      border: 1px solid #2c2c2c;
+      background: #000;
+      min-height: 220px;
+    }
+
+    .map-wrapper iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      display: block;
+    }
+
+    .stack-cards {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-top: 1.6rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 0.7rem 0 1.1rem;
+      font-size: 0.75rem;
+      color: #8b8b8b;
+    }
+
+    .floating-menu {
+      display: none;
+    }
+
+    @media (max-width: 900px) {
+      .shell {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .sidebar {
+        flex-direction: column;
+      }
+
+      .sidebar-footer {
+        margin-top: 0.5rem;
+      }
+    }
+
+    @media (max-width: 700px) {
+      .content-shell {
+        padding: 1.05rem 1rem 1.2rem;
+      }
+
+      .section-top {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .section-logo {
+        height: 34px;
+      }
+
+      .hero-header {
+        border-radius: 0.9rem;
+      }
+
+      .grid-2 {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .grid-2 > *:not(:first-child) {
+        margin-top: 0.9rem;
+      }
+    }
+
+    @media (max-width: 900px) {
+      .floating-menu {
+        display: block;
+        position: fixed;
+        bottom: 22px;
+        right: 22px;
+        z-index: 999;
+      }
+
+      .floating-main-btn {
+        width: 58px;
+        height: 58px;
+        border-radius: 50%;
+        border: none;
+        background: var(--rojo);
+        color: white;
+        font-size: 1.4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        box-shadow: 0 4px 14px rgba(0,0,0,0.6);
+      }
+
+      .floating-options {
+        position: absolute;
+        bottom: 70px;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(10px);
+        transition: all .25s ease-out;
+      }
+
+      .floating-options.show {
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateY(0);
+      }
+
+      .floating-option-btn {
+        background: #131313;
+        color: #fff;
+        border: 1px solid #333;
+        padding: 0.55rem 0.75rem;
+        border-radius: 0.6rem;
+        font-size: .8rem;
+        display: flex;
+        align-items: center;
+        gap: .4rem;
+        backdrop-filter: blur(6px);
+        cursor: pointer;
+        white-space: nowrap;
+      }
+
+      .floating-option-btn i {
+        color: var(--rojo);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="shell">
+      <aside class="sidebar">
+        <div class="sidebar-logo">
+          <img src="img/logo-afindustrial.png" alt="Logo AFINDUSTRIAL" />
+          <div class="sidebar-logo-text">
+            AFINDUSTRIAL
+            <span>Afilado industrial</span>
+          </div>
+        </div>
+
+        <div class="sidebar-divider"></div>
+
+        <p class="menu-title">Navegación</p>
+        <nav class="menu">
+          <button class="menu-item active" data-section="home">
+            <i class="fa-solid fa-house"></i><span>Inicio</span>
+          </button>
+          <button class="menu-item" data-section="empresa">
+            <i class="fa-solid fa-building-user"></i><span>Empresa</span>
+          </button>
+          <button class="menu-item" data-section="afilado">
+            <i class="fa-solid fa-industry"></i><span>Afilado industrial</span>
+          </button>
+          <button class="menu-item" data-section="servicios">
+            <i class="fa-solid fa-gear"></i><span>Servicios</span>
+          </button>
+          <button class="menu-item" data-section="cotizacion">
+            <i class="fa-solid fa-file-signature"></i><span>Cotización</span>
+          </button>
+          <button class="menu-item" data-section="ubicacion">
+            <i class="fa-solid fa-location-dot"></i><span>Ubicación</span>
+          </button>
+          <button class="menu-item" data-section="contacto">
+            <i class="fa-solid fa-phone-volume"></i><span>Contacto</span>
+          </button>
+        </nav>
+
+        <div class="sidebar-footer">
+          <strong>Tip:</strong> selecciona solo la sección que necesites;
+          el contenido se carga aquí mismo sin hacer scroll.
+        </div>
+      </aside>
+
+      <main class="content-shell">
+        <div class="hero-header">
+          <img src="img/header-afindustrial.png" alt="AFINDUSTRIAL - Encabezado" loading="lazy" />
+        </div>
+
+        <!-- INICIO -->
+        <section id="home" class="content-section active">
+          <div class="section-top">
+            <div class="section-meta">
+              <img src="img/logo-afindustrial.png" alt="Logo AFINDUSTRIAL" class="section-logo" loading="lazy" />
+              <div class="section-title-wrap">
+                <span class="section-kicker">Inicio</span>
+                <h2 class="section-heading">¿Qué es el afilado industrial?</h2>
+              </div>
+            </div>
+            <div class="section-icon-pill">
+              <i class="fa-solid fa-circle-info"></i>
+              Vista general
+            </div>
+          </div>
+
+          <div class="section-body">
+            <p>
+              El afilado industrial es el proceso de recuperar el filo y la geometría
+              correcta de las herramientas de corte que usa la industria: sierras,
+              cuchillas, rodillos formadores, entre otras. Un buen afilado mantiene
+              la productividad, reduce paros y evita desperdicio de material.
+            </p>
+            <p>
+              En <strong>AFINDUSTRIAL</strong> combinamos personal calificado, maquinaria
+              de precisión y abrasivos especializados para garantizar cortes limpios,
+              seguros y repetibles, alargando la vida útil de tus herramientas.
+            </p>
+
+            <div class="stack-cards">
+              <div class="card">
+                <h3>Beneficios inmediatos</h3>
+                <ul class="section-list">
+                  <li>Cortes más limpios y precisos.</li>
+                  <li>Menos esfuerzo de la máquina y menor consumo de energía.</li>
+                  <li>Mayor vida útil de sierras y cuchillas.</li>
+                  <li>Reducción de tiempos muertos por fallas de herramienta.</li>
+                </ul>
+              </div>
+              <div class="card">
+                <h3>Capacidades destacadas</h3>
+                <ul class="section-list">
+                  <li>Cuchillas circulares y rectangulares de gran formato.</li>
+                  <li>Herramienta para papel, cartón, plástico y acero.</li>
+                  <li>Rodillos formadores y rectificado de separadores.</li>
+                  <li>Sierras circulares, de fricción y con pastillas de carburo.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="chips">
+              <div class="chip"><i class="fa-solid fa-shield-halved"></i> Seguridad en el corte</div>
+              <div class="chip"><i class="fa-solid fa-gauge-high"></i> Máxima productividad</div>
+              <div class="chip"><i class="fa-solid fa-recycle"></i> Menos desperdicio</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- EMPRESA -->
+        <section id="empresa" class="content-section">
+          <div class="section-top">
+            <div class="section-meta">
+              <img src="img/logo-afindustrial.png" alt="Logo AFINDUSTRIAL" class="section-logo" loading="lazy" />
+              <div class="section-title-wrap">
+                <span class="section-kicker">Quiénes somos</span>
+                <h2 class="section-heading">La empresa</h2>
+              </div>
+            </div>
+            <div class="section-icon-pill">
+              <i class="fa-solid fa-building"></i>
+              Perfil
+            </div>
+          </div>
+
+          <div class="section-body">
+            <p>
+              AFINDUSTRIAL es una empresa dedicada al afilado y mantenimiento de herramienta
+              de corte para la industria, enfocada en ofrecer soluciones confiables
+              y tiempos de respuesta competitivos.
+            </p>
+
+            <h3 class="section-subtitle">
+              <i class="fa-solid fa-bullseye section-subtitle-icon"></i>
+              Misión
+            </h3>
+            <p>
+              Satisfacer plenamente las necesidades de nuestros clientes en el servicio
+              de afilado, fabricación y venta de herramienta de corte, contribuyendo
+              al desarrollo de nuestros empleados y a la continuidad de la empresa.
+            </p>
+
+            <h3 class="section-subtitle">
+              <i class="fa-solid fa-lightbulb section-subtitle-icon"></i>
+              Visión
+            </h3>
+            <p>
+              Ser una empresa líder, reconocida por la calidad y eficiencia de sus
+              servicios, fortaleciendo el desarrollo de la industria.
+            </p>
+          </div>
+        </section>
+
+        <!-- AFILADO -->
+        <section id="afilado" class="content-section">
+          <div class="section-top">
+            <div class="section-meta">
+              <img src="img/logo-afindustrial.png" alt="Logo AFINDUSTRIAL" class="section-logo" loading="lazy" />
+              <div class="section-title-wrap">
+                <span class="section-kicker">Proceso</span>
+                <h2 class="section-heading">Afilado industrial detallado</h2>
+              </div>
+            </div>
+            <div class="section-icon-pill">
+              <i class="fa-solid fa-industry"></i>
+              Operación
+            </div>
+          </div>
+
+          <div class="section-body">
+            <p>
+              Ofrecemos un excelente servicio de afilado de cuchillas industriales,
+              realizado por personal entrenado y calificado, utilizando maquinaria
+              especial de precisión y ruedas abrasivas apropiadas para cada aplicación.
+            </p>
+
+            <h3 class="section-subtitle">Capacidades de afilado</h3>
+            <ul class="section-list">
+              <li>Cuchillas circulares hasta 24" de diámetro.</li>
+              <li>Cuchillas rectangulares hasta 20" de ancho y 162" (4 m) de largo.</li>
+              <li>Cuchillas para corte de papel, cartón y plástico.</li>
+              <li>Rodillos formadores de tubos, cuadrados, redondos y PTR.</li>
+              <li>Rectificado de separadores de Buna “N” y poliuretano.</li>
+              <li>Sierras circulares de acero hasta 60", fricción hasta 1010 mm y con pastillas de carburo hasta 1 m.</li>
+              <li>Tiempo de entrega típico de dos días, según volumen y ubicación.</li>
+            </ul>
+
+            <h3 class="section-subtitle">Por qué no conviene esperar al desafilado</h3>
+            <ul class="section-list">
+              <li>Disminuye la vida de las cuchillas, que pueden despostillarse.</li>
+              <li>Genera rebaba y mala calidad de corte en el material.</li>
+              <li>Aumenta la carga y el esfuerzo sobre la máquina cortadora.</li>
+              <li>Obliga a retirar más material al afilar para recuperar el filo.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- SERVICIOS -->
+        <section id="servicios" class="content-section">
+          <div class="section-top">
+            <div class="section-meta">
+              <img src="img/logo-afindustrial.png" alt="Logo AFINDUSTRIAL" class="section-logo" loading="lazy" />
+              <div class="section-title-wrap">
+                <span class="section-kicker">Qué hacemos</span>
+                <h2 class="section-heading">Servicios</h2>
+              </div>
+            </div>
+            <div class="section-icon-pill">
+              <i class="fa-solid fa-list-check"></i>
+              Portafolio
+            </div>
+          </div>
+
+          <div class="section-body">
+            <p>
+              Contamos con soluciones de afilado y mantenimiento para diferentes
+              procesos y tipos de herramienta. Cada servicio puede acompañarse de
+              recolección y entrega según acuerdo.
+            </p>
+
+            <div class="services-grid">
+              <article class="service-card">
+                <div class="service-image">
+                  <img src="img/servicio-sierras.png" alt="Afilado de sierras industriales" loading="lazy" />
+                </div>
+                <div class="service-content">
+                  <p class="service-tag">Servicio</p>
+                  <h3 class="service-title">Afilado de sierras</h3>
+                  <ul class="section-list">
+                    <li>Sierras HSS.</li>
+                    <li>Sierras segmentadas hasta 80".</li>
+                    <li>Sierras con pastilla de carburo.</li>
+                    <li>Reposición de pastillas de carburo.</li>
+                    <li>Reposición total de sierras con pastilla de carburo.</li>
+                    <li>Reparación de sierras despostilladas HSS.</li>
+                    <li>Venta de sierras HSS y segmentadas.</li>
+                    <li>Venta de sierras con pastilla de carburo.</li>
+                    <li>Venta de sierra cinta.</li>
+                    <li>Reparación y cambio de pastillas de tungsteno.</li>
+                  </ul>
+                </div>
+              </article>
+
+              <article class="service-card">
+                <div class="service-image">
+                  <img src="img/servicio-cuchillas.png" alt="Afilado de cuchillas industriales" loading="lazy" />
+                </div>
+                <div class="service-content">
+                  <p class="service-tag">Servicio</p>
+                  <h3 class="service-title">Afilado de cuchillas industriales</h3>
+                  <ul class="section-list">
+                    <li>Afilado de cuchillas para cizalla de cualquier medida.</li>
+                    <li>Afilado de cuchillas para guillotina en acero.</li>
+                    <li>Afilado de cuchillas para guillotina con inserto de carburo de tungsteno.</li>
+                    <li>Afilado de cuchillas para molino de plástico.</li>
+                    <li>Afilado de cuchillas para pulverizador.</li>
+                    <li>Afilado de cortador anular para perforación de pozos.</li>
+                  </ul>
+                </div>
+              </article>
+
+              <article class="service-card">
+                <div class="service-image">
+                  <img src="img/servicio-herramientas.png" alt="Afilado de herramientas de corte" loading="lazy" />
+                </div>
+                <div class="service-content">
+                  <p class="service-tag">Servicio</p>
+                  <h3 class="service-title">Afilado de Herramientas en General</h3>
+                  <ul class="section-list">
+                    <li>Soluciones en afilado de herramientas de corte.</li>
+                    <li>Fabricación de herramientas especiales.</li>
+                    <li>Brocas.</li>
+                    <li>Brocas escalonadas, Subland.</li>
+                    <li>Rimas.</li>
+                    <li>Cortadores verticales HSS y carburo.</li>
+                    <li>Cortadores circulares HSS y carburo.</li>
+                    <li>Fresas.</li>
+                    <li>Cuchillas de cualquier tipo.</li>
+                    <li>Brochas en acero y carburo de tungsteno.</li>
+                  </ul>
+                </div>
+              </article>
+
+              <article class="service-card">
+                <div class="service-image">
+                  <img src="img/servicio-mantenimiento.png" alt="Mantenimiento de maquinaria de corte" loading="lazy" />
+                </div>
+                <div class="service-content">
+                  <p class="service-tag">Servicio</p>
+                  <h3 class="service-title">Mantenimiento a maquinaria</h3>
+                  <p>
+                    Mantenimiento preventivo y correctivo de equipos de corte,
+                    ajustes y revisión general para evitar paros inesperados.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- COTIZACIÓN -->
+        <section id="cotizacion" class="content-section">
+          <div class="section-top">
+            <div class="section-meta">
+              <img src="img/logo-afindustrial.png" alt="Logo AFINDUSTRIAL" class="section-logo" loading="lazy" />
+              <div class="section-title-wrap">
+                <span class="section-kicker">Solicita tu precio</span>
+                <h2 class="section-heading">Cotización</h2>
+              </div>
+            </div>
+            <div class="section-icon-pill">
+              <i class="fa-solid fa-file-signature"></i>
+              Formulario
+            </div>
+          </div>
+
+          <div class="section-body">
+            <p>
+              Llena el siguiente formulario con los datos de tu empresa y el tipo
+              de servicio requerido. La información se enviará a
+              <strong>afindustrial@hotmail.com</strong>.
+            </p>
+
+            <div class="card" style="margin-top: 1rem;">
+              <form action="https://formsubmit.co/afindustrial@hotmail.com"
+                    method="POST"
+                    enctype="multipart/form-data">
+                <input type="hidden" name="_subject" value="Nueva cotización desde AFINDUSTRIAL">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_next" value="https://afindustrial.dpdns.org/">
+
+                <div>
+                  <label for="nombre">Nombre de contacto</label>
+                  <input type="text" id="nombre" name="Nombre de contacto" required />
+                </div>
+                <div>
+                  <label for="empresa">Empresa</label>
+                  <input type="text" id="empresa" name="Empresa" />
+                </div>
+                <div>
+                  <label for="email">Correo electrónico</label>
+                  <input type="email" id="email" name="Correo electrónico" required />
+                </div>
+                <div>
+                  <label for="telefono">Teléfono</label>
+                  <input type="tel" id="telefono" name="Teléfono" />
+                </div>
+                <div>
+                  <label for="servicio">Servicio requerido</label>
+                  <select id="servicio" name="Servicio requerido">
+                    <option value="Afilado de sierras">Afilado de sierras</option>
+                    <option value="Afilado de cuchillas">Afilado de cuchillas</option>
+                    <option value="Mantenimiento a maquinaria">Mantenimiento a maquinaria</option>
+                    <option value="Otro">Otro</option>
+                  </select>
+                </div>
+                <div>
+                  <label for="mensaje">Descripción del trabajo</label>
+                  <textarea id="mensaje" name="Descripción del trabajo"></textarea>
+                </div>
+                <div>
+                  <label for="archivo">Adjuntar archivo (opcional)</label>
+                  <input type="file" id="archivo" name="Archivo adjunto" />
+                  <p class="form-note">
+                    Puedes adjuntar una foto, imagen o PDF de la herramienta o trabajo a realizar.
+                  </p>
+                </div>
+
+                <button type="submit" class="btn btn-primary">
+                  <i class="fa-solid fa-paper-plane"></i>Enviar cotización
+                </button>
+                <p class="form-note">
+                  Al enviar el formulario, recibirás un correo de confirmación y la cotización llegará a
+                  <strong>afindustrial@hotmail.com</strong>.
+                </p>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <!-- UBICACIÓN -->
+        <section id="ubicacion" class="content-section">
+          <div class="section-top">
+            <div class="section-meta">
+              <img src="img/logo-afindustrial.png" alt="Logo AFINDUSTRIAL" class="section-logo" loading="lazy" />
+              <div class="section-title-wrap">
+                <span class="section-kicker">Dónde estamos</span>
+                <h2 class="section-heading">Ubicación</h2>
+              </div>
+            </div>
+            <div class="section-icon-pill">
+              <i class="fa-solid fa-location-dot"></i>
+              Mapa
+            </div>
+          </div>
+
+          <div class="section-body grid-2">
+            <div>
+              <p>
+                Abrimos a las 11:00 am y cerramos a las 5:30 pm de lunes a viernes.
+              </p>
+              <h3 class="section-subtitle">Dirección</h3>
+              <p>Morelos No. 9E Los Reyes de Iztapalapa.</p>
+            </div>
+            <div class="map-wrapper">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d240928.09325637147!2d-99.107666!3d19.347428!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ffec86a7ecc3%3A0xc98461d3b646c856!2sAFINDUSTRIAL!5e0!3m2!1ses-419!2smx!4v1763301247673!5m2!1ses-419!2smx"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+          </div>
+        </section>
+
+        <!-- CONTACTO -->
+        <section id="contacto" class="content-section">
+          <div class="section-top">
+            <div class="section-meta">
+              <img src="img/logo-afindustrial.png" alt="Logo AFINDUSTRIAL" class="section-logo" loading="lazy" />
+              <div class="section-title-wrap">
+                <span class="section-kicker">Hablemos</span>
+                <h2 class="section-heading">Contacto</h2>
+              </div>
+            </div>
+            <div class="section-icon-pill">
+              <i class="fa-solid fa-phone-volume"></i>
+              Atención
+            </div>
+          </div>
+
+          <div class="section-body">
+            <div>
+              <p>
+                Si tienes dudas, necesitas una cotización rápida o quieres agendar
+                un servicio, puedes escribirnos por WhatsApp, correo o teléfono.
+              </p>
+
+              <h3 class="section-subtitle">Datos de contacto</h3>
+              <ul class="section-list">
+                <li><strong>Correo:</strong> afindustrial@hotmail.com</li>
+                <li><strong>Teléfono:</strong> (+52) 5548296975</li>
+                <li><strong>Horario:</strong> Lunes a viernes de 11:00 am a 5:30 pm.</li>
+              </ul>
+
+              <button
+                class="btn btn-whatsapp"
+                onclick="window.open('https://wa.me/5548296975?text=Hola,%20quiero%20información%20sobre%20servicios%20de%20afilado%20industrial','_blank')">
+                <i class="fa-brands fa-whatsapp"></i>
+                Escribir por WhatsApp
+              </button>
+            </div>
+
+            <div class="card" style="margin-top: 1.2rem;">
+              <h3>Por qué trabajar con nosotros</h3>
+              <ul class="section-list">
+                <li>Atención especializada a empresas industriales.</li>
+                <li>Experiencia en diferentes tipos de herramienta de corte.</li>
+                <li>Compromiso con calidad, tiempos y seguridad.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <div class="floating-menu">
+    <button class="floating-main-btn" id="floatToggle">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <div class="floating-options" id="floatOptions">
+      <button class="floating-option-btn" data-section="home"><i class="fa-solid fa-house"></i> Inicio</button>
+      <button class="floating-option-btn" data-section="empresa"><i class="fa-solid fa-building-user"></i> Empresa</button>
+      <button class="floating-option-btn" data-section="afilado"><i class="fa-solid fa-industry"></i> Afilado</button>
+      <button class="floating-option-btn" data-section="servicios"><i class="fa-solid fa-gear"></i> Servicios</button>
+      <button class="floating-option-btn" data-section="cotizacion"><i class="fa-solid fa-file-signature"></i> Cotización</button>
+      <button class="floating-option-btn" data-section="ubicacion"><i class="fa-solid fa-location-dot"></i> Ubicación</button>
+      <button class="floating-option-btn" data-section="contacto"><i class="fa-solid fa-phone-volume"></i> Contacto</button>
+    </div>
+  </div>
+
+  <footer>
+    © <span id="year"></span> AFINDUSTRIAL – Afilado industrial. Todos los derechos reservados.
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    const menuItems = document.querySelectorAll(".menu-item");
+    const sections = document.querySelectorAll(".content-section");
+
+    menuItems.forEach((item) => {
+      item.addEventListener("click", () => {
+        const target = item.getAttribute("data-section");
+
+        menuItems.forEach((m) => m.classList.remove("active"));
+        item.classList.add("active");
+
+        sections.forEach((sec) => {
+          sec.classList.toggle("active", sec.id === target);
+        });
+      });
+    });
+  </script>
+
+  <script>
+    const floatBtn = document.getElementById("floatToggle");
+    const floatOptions = document.getElementById("floatOptions");
+
+    floatBtn.addEventListener("click", () => {
+      floatOptions.classList.toggle("show");
+    });
+
+    document.querySelectorAll(".floating-option-btn").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const target = btn.getAttribute("data-section");
+
+        document.querySelectorAll(".menu-item").forEach(item => {
+          item.classList.remove("active");
+          if (item.dataset.section === target) {
+            item.classList.add("active");
+          }
+        });
+
+        document.querySelectorAll(".content-section").forEach(sec => {
+          sec.classList.toggle("active", sec.id === target);
+        });
+
+        floatOptions.classList.remove("show");
+      });
+    });
+  </script>
+</body>
+</html>
+
